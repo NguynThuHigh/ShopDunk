@@ -1,0 +1,123 @@
+﻿body {
+    margin: 0px;
+    border: none;
+}
+
+.top-menu {
+    position: fixed;
+    background-color: #515154;
+    width: 100%;
+    height: 55px;
+    padding-top: 5px;
+}
+
+#header-1 {
+    width: 20%;
+    float: left;
+}
+
+    #header-1 img {
+        height: 50px;
+        width: 165px;
+        object-fit: scale-down;
+        float: right;
+    }
+
+#header-2 img {
+    object-fit: scale-down;
+    padding-right: 12px;
+}
+
+#header-2 {
+    width: 20%;
+    float: left;
+}
+
+    #header-2 li {
+        list-style-type: none;
+        display: inline;
+    }
+
+nav {
+    width: 60%;
+    float: left;
+}
+
+#main-menu ul {
+    color: whitesmoke;
+}
+
+#main-menu li {
+    color: whitesmoke;
+    list-style-type: none;
+    display: inline;
+}
+
+#main-menu a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 45px;
+}
+
+.Content {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 500px;
+    clear: both;
+}
+
+section {
+    background-color: whitesmoke;
+    height: 500px;
+    width: 100%;
+}
+
+.bottom-menu {
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+}
+
+#newsRegister {
+    background-color: lightgrey;
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+    height: 120px;
+    padding: 5px;
+}
+
+.email-input {
+    position: relative;
+    display: inline-block;
+}
+
+/* Định dạng nút */
+button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10.5px 22px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+/* Định dạng input */
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    padding-right: 40px; /* Để chừa chỗ cho nút */
+    width: 400px; /* Điều chỉnh chiều rộng của input theo ý muốn */
+    border-radius: 20px;
+}

@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="~/Content/Style.css" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+</head>
+<body>
+    <div class="top-menu">
+        <header id="header-1">
+            <img src="https://shopdunk.com/images/thumbs/0012445_Logo_ShopDunk.png" />
+        </header>
+        <nav>
+            <div id="main-menu">
+                <ul>
+                    <li style="padding-left: 0;"><a href="#">iPhone</a></li>
+                    <li><a href="#">iPad</a></li>
+                    <li><a href="#">Watch</a></li>
+                    <li><a href="#">Âm thanh</a></li>
+                    <li><a href="#">Phụ kiện</a></li>
+                    <li><a href="#">Dịch vụ</a></li>
+                    <li><a href="#">Tin Tức</a></li>
+                    <li><a href="#">Khuyến mãi</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header id="header-2">
+            <ul>
+                <li><a href=""><img width="17" src="https://i.imgur.com/LZqwUeJ.png"></a></li>
+                <li><img width="17" src="https://i.imgur.com/pn16hKo.png"></li>
+                <li><img src="https://shopdunk.com/images/uploaded-source/icon/login.png"></li>
+                <li>
+                    <img src="https://shopdunk.com/images/flags/vn.png" />
+                    <img src="https://shopdunk.com/images/flags/us.png" />
+                </li>
+
+            </ul>
+        </header>
+    </div>
+    <div class="Content">
+        <section>
+        </section>
+        <article>
+            Product s
+        </article>
+    </div>
+    <div class="bottom-menu">
+        <form id="newsRegister">
+            <h2>Đăng ký nhận tin từ ShopDunk</h2>
+            <p>Thông tin sản phẩm mới nhất và chương trình khuyến mãi</p>
+            <div class="email-input">
+                <input type="text" placeholder="Nhập mail">
+                <button type="button">Gửi</button>
+            </div>
+        </form>
+        <footer>
+        </footer>
+    </div>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>
